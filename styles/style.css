@@ -168,6 +168,7 @@ body{
 }
 .btn-description{
     color: rgba(255, 255, 255, 65%);
+    margin-top: 10px;
 }
 #five{
     font-size: 2rem;
@@ -182,7 +183,8 @@ body{
 #three{
     font-weight: 900;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    
     
 }
 .bt2{
@@ -197,11 +199,26 @@ body{
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: left;
     width: 35%;
     display:flex ;
+    gap: 10px;
   
     
 }
 
+#bar{
+    display: none;
+}
+#red{
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin: auto;
+    padding: none;
+    
+    
+}
+    
