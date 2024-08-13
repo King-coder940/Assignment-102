@@ -6,6 +6,18 @@
         font-weight: 400;
         font-style: normal;
       }
+      
+    
+      .miami-font {
+        font-family: 'Miama', sans-serif;                               
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        
+      }
+      
+      
+
 
 
 /* Navbar styles */
@@ -24,8 +36,16 @@
     display: flex;
 
 }
+
+
 .linkers{
     gap: 1.6rem;
+    border-radius: 20px;
+    border: solid rgba(255, 255, 255, 10%);
+    padding-left: 1px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
 }
 .nav-items{
     list-style: none;
@@ -56,12 +76,132 @@ body{
     color: #FFFFFF;
 }
 .color-secondary{
-    color: rgba(255, 255, 255, 50);
+    color: rgba(255, 255, 255, 25);
 }
 .color-highlight{
     color: #E6533C;
 }
 /* banner Styles */
 .banner-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 0px;
 
 }
+.banner-description{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: none;
+
+
+}
+/* button styles */
+.btn-1{
+    padding: 16px 40px;
+    border-radius: 25px;
+    border: solid 1px ;
+    cursor: pointer;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 10px;
+    
+}
+.btn-1:hover{
+    background-color: #E6533C;
+}
+.btn-2{
+    padding: 16px 40px;
+    border-radius: 25px;
+    border: solid 1px ;
+    cursor: pointer;
+    background-color: black;
+    color: #FFFFFF;
+}
+.btn-2:hover{
+    background-color: #E6533C;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+.banner-content{
+    margin-left: 210px;
+    max-width: 50%;
+    
+}
+#unique{
+    font-size: 9rem;
+    line-height: 0;
+    
+   
+}
+.image-container{
+    position: relative;
+
+}
+.bt1{
+    position: absolute;
+    top: 130px;
+    left: 220px;
+    background-color: rgba(255, 255, 255, 20%);
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: .8rem;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: left;
+    width: 35%;
+    
+
+    
+}
+.btn{
+    display: flex;
+    gap: 10px;
+    
+}
+.btn-description{
+    color: rgba(255, 255, 255, 65%);
+}
+#five{
+    font-size: 2rem;
+    font-weight: 900;
+    
+
+}
+.img1{
+    width: 100%;
+}
+
+#three{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    
+}
+.bt2{
+    position: absolute;
+    bottom: 80px;
+    left:-50px ;
+    background-color: rgba(255, 255, 255, 20%);
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: .8rem;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 35%;
+    display:flex ;
+  
+    
+}
+
