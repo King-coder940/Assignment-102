@@ -181,6 +181,7 @@ body{
 }
 .img1{
     width: 100%;
+    height: auto;
 }
 
 #three{
@@ -310,8 +311,10 @@ body{
 
 
     
- @media screen and (max-width:576px) {
+ @media screen and (max-width:480px) {
     /* banner section mobile responsiveness */
+    
+    }
     #bar{
         display: block;
 
@@ -330,8 +333,8 @@ body{
     .banner-content{
         text-align: left;
         margin-left: 10px;
-        max-width: 352px;
-        margin-right: 10px;
+        max-width: 300px;
+        margin-right: 50px;
         
        
         
@@ -388,7 +391,6 @@ body{
     .habits{
         width: 85%;
         margin: 0 auto;
-        
     }
 
  }
