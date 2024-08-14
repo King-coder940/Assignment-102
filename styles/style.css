@@ -228,12 +228,88 @@ body{
     left: 23px;
     top: 30px;
 }
+/* shared styles */
+.section-title{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 10px;
 
-/* banner section mobile responsiveness */
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.322);
+    font-weight: 400;
+
+
+}
+.semi-title{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.semi-description{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.322) ;
+    font-weight: 400;
+    
+
+}
+
+
+/* habits section */
+.habits-title{
+    text-align: center;
+    
+}
+.habits{
+    width: 70%;
+    margin: 0  auto;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    
+}
+.fit-img{
+    border-radius: 50%;
+
+}
+.card1{
+    text-align: center;
+    margin-top: 20px;
+}
+.card2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card3{
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+.card3{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
     
  @media screen and (max-width:576px) {
 
-    
+    /* banner section mobile responsiveness */
     #bar{
         display: block;
 
