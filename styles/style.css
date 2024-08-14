@@ -22,9 +22,12 @@
 
 /* Navbar styles */
 
+header{
+    background: linear-gradient( #000000, #434343, #000000);
+}
 .bg-primary{
     max-width: 1440px;
-    background: linear-gradient( #000000, #434343, #000000);
+    
     
 }
 .navbar{
@@ -264,7 +267,7 @@ body{
     
 }
 .habits{
-    width: 70%;
+    max-width: 992px;
     margin: 0  auto;
 }
 .card-container{
@@ -308,7 +311,6 @@ body{
 
     
  @media screen and (max-width:576px) {
-
     /* banner section mobile responsiveness */
     #bar{
         display: block;
@@ -349,12 +351,16 @@ body{
     
     .bt1{
         top: 70px;
-        left: 190px;
-        padding-right: 10px;
+        left: 180px;
+        font-size: .8rem;
+        padding: 2.5px 4px;
+        
+        
+        
         
     }
     #five{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .bt2{
         left: -40px;
@@ -367,7 +373,28 @@ body{
         top: 30px;
     }
     
+    /* habits section media query */
 
+    .card-container{
+        flex-direction: column;
+    }
+    .section-title{
+        font-size: 2rem;
+
+    }
+    .section-description{
+        font-size: .8rem;
+    }
+    .habits{
+        width: 85%;
+        margin: 0 auto;
+        
+    }
+
+ }
+
+    
   
     
- }
+ 
+ 
