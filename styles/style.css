@@ -304,6 +304,29 @@ body{
     text-align: center;
     margin-top: 20px;
 }
+/* run section */
+.run{
+    max-width: 1060px;
+    background-color: rgba(255, 255, 255, 15%);
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.run-img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: none;
+    object-position: 68% 26%;
+
+}
+.run-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
 
 
 
@@ -311,7 +334,7 @@ body{
 
 
     
- @media screen and (max-width:480px) {
+ @media screen and (max-width:576px) {
     /* banner section mobile responsiveness */
     
     #bar{
