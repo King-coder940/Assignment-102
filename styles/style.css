@@ -507,12 +507,175 @@ td, th{
     left: 20px;
 
 }
+/* unique section */
+.unique-content{
+    margin: 0 auto;
+    max-width: 1060px;
+    text-align: center;
 
+}
+.btn-container{
+    position: relative;
+}
+.btn-3{
+    position: absolute;
+    left: 400px;
+    background-color:rgb(25, 119, 207);
+    padding: 5px 60px;
+    padding-left: 30px;
+    border-radius: 40px;
+}
 
+.btn-4{
+    position: absolute;
+    left: 520px;
+    background-color:#E6533C;
+    padding: 5px 20px;
+    border-radius: 40px;
+    
+    
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 20px;
+    padding: 40px;
+}
+.benefit-box-1{
+    position: relative;
+}
+.tick-1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
 
+}
+.benefits-1{
+    margin-left: 40px;
+}
+.tick-2{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-2{
+    margin-left: 40px;
+}
+.tick-3{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-3{
+    margin-left: 40px;
+}
+.arrow-1{
+    padding-left: 10px;
+}
+.benefit-box-2{
+    position: relative;
+}
+.tick-4{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
 
+}
+.benefits-4{
+    margin-left: 40px;
+}
+.tick-5{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-5{
+    margin-left: 40px;
+}
+.tick-6{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-6{
+    margin-left: 40px;
+}
+.benefit-box-3{
+    position: relative;
+}
+.tick-7{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
 
-   
+}
+.benefits-7{
+    margin-left: 40px;
+}
+.tick-8{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-8{
+    margin-left: 40px;
+}
+.tick-9{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    color:#E6533C;
+}
+.benefits-9{
+    margin-left: 40px;
+}
+.card-1{
+    background-color: gray;
+    padding: 60px 50px;
+    border-radius: 40px;
+    width: 40%;
+    
+}
+.card-title{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+.card-button{
+    background-color:#E6533C;
+    padding: 5px 20px;
+    border-radius: 40px;
+
+}
+.card-description{
+    color: #FFFFFF;
+}
+.card-2{
+    background-color:#000000;
+    padding: 60px 50px;
+    border-radius: 40px;
+    width: 40%;
+}
+.card-button{
+    background-color:#E6533C;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+.card-3{
+    background-color:#ffffff18;
+    padding: 60px 50px;
+    border-radius: 40px;
+    width: 40%;
+}
 
  @media screen and (max-width:576px) {
     /* banner section mobile responsiveness */
@@ -694,6 +857,38 @@ td, th{
     position: relative;
 
 
+ }
+ /* unique section */
+ .btn-3{
+    position: absolute;
+    left: 80px;
+    background-color:rgb(25, 119, 207);
+    padding: 5px 60px;
+    padding-left: 30px;
+    border-radius: 40px;
+}
+
+.btn-4{
+    position: absolute;
+    left: 200px;
+    background-color:#E6533C;
+    padding: 5px 20px;
+    border-radius: 40px;}
+
+ .price-container{
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 40px;
+}
+ 
+ 
+ .card-1, .card-2, .card-3{
+    width: 80%;
+    
+    
+ }
+
+ 
  }
 
     
