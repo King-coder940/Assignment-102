@@ -878,6 +878,7 @@ option{
     
     
  }
+ 
  #se{
     width: 100%;
     height: auto;
@@ -967,19 +968,24 @@ option{
  /* unique section */
  .btn-3{
     position: absolute;
-    left: 80px;
+    left: 60px;
     background-color:rgb(25, 119, 207);
     padding: 5px 60px;
     padding-left: 30px;
     border-radius: 40px;
+    
 }
 
 .btn-4{
     position: absolute;
-    left: 200px;
+    left: 180px;
     background-color:#E6533C;
     padding: 5px 20px;
     border-radius: 40px;
+    
+}
+.btn-container{
+    margin: 0 auto;
 }
 
  .price-container{
@@ -1001,3 +1007,12 @@ option{
  }
 
  }
+ @media screen and (min-width:400px) and (max-width:576px) {
+    #kg, #cm, #age{
+        width: 140px;
+        height: auto;
+        padding: 10px;
+    
+ }
+}
+
