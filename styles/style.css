@@ -466,6 +466,7 @@ option{
     gap: 20px;
     margin: 0 auto;
     padding: 40px;
+   
     
 
 }
@@ -731,6 +732,33 @@ option{
     border-radius: 40px;
     width: 40%;
 }
+/* footer */
+.foot{
+    background-color: rgba(255, 255, 255, 0.096);
+}
+.foot-1{
+    max-width: 1440px;
+}
+.foot-title{
+    font-size: 2rem;
+    font-style: italic;
+}
+.footer-container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px;
+    margin: 0 auto;
+    
+
+}
+.end{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.end> hr{
+    max-width: 1060px;
+}
 
  @media screen and (max-width:576px) {
     /* banner section mobile responsiveness */
@@ -866,13 +894,13 @@ option{
  /* meet section */
  .team-container{
     grid-template-columns: repeat(1,1fr);
-    margin-left: 20px;
+    margin-left: 17px;
+    
 
     
  }
  .g1{
     display: none;
-    grid-row: auto 0;
     background-image: url("../assets/trainer1.png");
     border-radius: 20px;
     height: 300px;
@@ -880,6 +908,7 @@ option{
     background-size: 300px 400px;
     background-repeat: no-repeat;
     position: relative;
+    
     
 
 }
@@ -891,6 +920,7 @@ option{
     width: 300px;
     height:300px;
     position: relative;
+    
  }
  .g3{
     background-image: url("../assets/trainer3.png");
@@ -963,12 +993,10 @@ option{
     
     
  }
-
- 
+ /* footer section */
+ .footer-container{
+    flex-direction: column;
+    width
  }
 
-    
-  
-    
- 
- 
+ }
